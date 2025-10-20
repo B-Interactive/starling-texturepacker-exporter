@@ -42,3 +42,8 @@ This custom exporter adds support for defining per-sprite **pivot points**, whic
     <SubTexture name="cat_run_06" x="482" y="1" width="472" height="355" frameX="-35" frameY="-94" frameWidth="512" frameHeight="512"  pivotX="504" pivotY="272"  />
 </TextureAtlas>
 ```
+## With per-sprite custom pivot point (on nose):
+![Screencast_20251020_145340_trim](https://github.com/user-attachments/assets/103216cc-4ef6-42d8-bde1-cc11d842a13d)
+
+## Default otherwise:
+![Screencast_20251020_152106_trim](https://github.com/user-attachments/assets/37489ea0-c150-4f30-a50f-3201cee23c54)
