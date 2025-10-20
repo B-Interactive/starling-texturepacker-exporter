@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker https://www.codeandweb.com/texturepacker -->
+<!-- {{ smartUpdateKey }} -->
+<TextureAtlas imagePath="{{ texture.fullName }}" width="{{ texture.size.width }}" height="{{ texture.size.height }}">{% for sprite in allSprites %}
+    {% if sprite.rotated %}<SubTexture name="{{ sprite.name }}" x="{{ sprite.frameRect.x }}" y="{{ sprite.frameRect.y }}" rotated="true" width="{{ sprite.frameRect.width }}" height="{{ sprite.frameRect.height }}" frameX="-{{ sprite.cornerOffset.x }}" frameY="-{{ sprite.cornerOffset.y }}" frameWidth="{{ sprite.untrimmedSize.width }}" frameHeight="{{ sprite.untrimmedSize.height }}"{% if sprite.pivotPoint %} pivotX="{{ sprite.pivotPoint.x }}" pivotY="{{ sprite.pivotPoint.y }}" {% endif %} />{% else %}<SubTexture name="{{ sprite.name }}" x="{{ sprite.frameRect.x }}" y="{{ sprite.frameRect.y }}" width="{{ sprite.frameRect.width }}" height="{{ sprite.frameRect.height }}" frameX="-{{ sprite.cornerOffset.x }}" frameY="-{{ sprite.cornerOffset.y }}" frameWidth="{{ sprite.untrimmedSize.width }}" frameHeight="{{ sprite.untrimmedSize.height }}" {% if sprite.pivotPoint %} pivotX="{{ sprite.pivotPoint.x }}" pivotY="{{ sprite.pivotPoint.y }}" {% endif %} />{% endif %}{% endfor %}
+</TextureAtlas>

@@ -1,0 +1,53 @@
+<exporter version="1.0">
+    <!-- Unique identifier for the exporter -->
+    <name>StarlingAdvanced</name>
+
+    <!-- Optional old exporter id(s) to auto-upgrade existing TPS files -->
+    <nameAlias>sparrow</nameAlias>
+
+    <!-- Display name in TexturePacker’s UI -->
+    <displayName>Sparrow / Starling Advanced</displayName>
+
+    <!-- Description for your own reference -->
+    <description>Starling/Sparrow compatible exporter with pivots and rotation support</description>
+
+    <version>1.0</version>
+
+    <files>
+        <file>
+            <name>starling</name>
+            <displayName>Starling TextureAtlas XML</displayName>
+            <fileExtension>xml</fileExtension>
+            <description>Starling compatible XML atlas data</description>
+            <template>Starling.xml</template>
+            <optional>false</optional>
+            <hasSeparateAutoSDFiles>all</hasSeparateAutoSDFiles>
+            <hasSeparateMultiPackFiles>true</hasSeparateMultiPackFiles>
+        </file>
+
+    </files>
+
+    <!-- Capabilities shown/used in the UI -->
+    <supportsTrimming>true</supportsTrimming>
+    <supportsRotation>true</supportsRotation>
+    <rotationDirection>cw</rotationDirection>           <!-- Typically "cw" for Sparrow/Starling -->
+    <supportsNPOT>true</supportsNPOT>
+    <supportsPolygonPacking>true</supportsPolygonPacking>
+    <supportsPivotPoint>true</supportsPivotPoint>
+    <supportsScale9>true</supportsScale9>
+    <supportsAnimations>true</supportsAnimations>
+    <spriteOrigin>TopLeft</spriteOrigin>                <!-- "TopLeft" for Sparrow/Starling -->
+    <textureSizeFactor>1</textureSizeFactor>
+    <ensureIntegerCenterOffset>false</ensureIntegerCenterOffset>
+
+    <!-- Default values for new projects and “Update to recommended values” -->
+    <defaults>
+        <extrude>1</extrude>
+        <shapePadding>0</shapePadding>
+        <borderPadding>0</borderPadding>
+        <trimMode>Trim</trimMode>                       <!-- None, Trim, Crop, CropKeepPos, Polygon -->
+        <sizeConstraints>POT</sizeConstraints>          <!-- POT (Power of 2), WordAligned, AnySize -->
+        <writePivotPoints>false</writePivotPoints>      <!-- true, false -->
+        <defaultPivotPoint>0.0,0.0</defaultPivotPoint>  <!-- Top left -->
+    </defaults>
+</exporter>
