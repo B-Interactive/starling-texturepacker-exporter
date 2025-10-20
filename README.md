@@ -1,4 +1,4 @@
-# Custom TexturePacker exporter for the Starling framework
+# Custom TexturePacker exporter for Starling
 
 A custom [TexturePacker](https://www.codeandweb.com/texturepacker) exporter for [ActionScript 3.0 Starling](https://github.com/Gamua/Starling-Framework) and [OpenFL Starling](https://github.com/openfl/starling) frameworks.
 
@@ -12,15 +12,21 @@ This custom exporter adds support for defining per-sprite **pivot points**, whic
 
 - **Pivot Point Support**  
   Adds per-frame `<SubTexture>` `pivotX` and `pivotY` attributes to the output XML, allowing precise anchor/pivot definition for Starling animation and UI workflows.  
-  If no pivot is defined for a frame, the attribute is omitted—enabling Starling’s natural pivot inheritance. 
+  
+     <img width="957" height="668" alt="image" src="https://github.com/user-attachments/assets/761fec46-7cd8-412a-854c-77f3a6b7ec94" />
+
+
 
 ## Usage
 
-1. Place the exporter in your TexturePacker custom exporter directory.  The location of this directory is chosen by you!
+1. Place the exporter in your TexturePacker custom exporter directory.
+   The location of this directory is set by you in TexturePacker **Preferences** > **Settings** > **Extensions**.
 
-2. Select it in TexturePacker when exporting your atlas.
+   <img width="571" height="544" alt="image" src="https://github.com/user-attachments/assets/c3496079-9ff0-4cf0-9e13-edd98b1ca08a" />
 
-3. Use the exported XML and texture in your Starling project as you would with the default exporter.
+3. Select it in TexturePacker, as **Sparrow / Starling Advanced**.
+
+   <img width="503" height="560" alt="image" src="https://github.com/user-attachments/assets/6679ced8-363a-425b-ac10-87ec34ba3324" />
 
 ## Example Using Pivot Points
 
