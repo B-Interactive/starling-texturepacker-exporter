@@ -28,16 +28,20 @@
     </files>
 
     <!-- Capabilities shown/used in the UI -->
+    <supportsTrimSpriteNames>true</supportsTrimSpriteNames>
     <supportsTrimming>true</supportsTrimming>
     <supportsRotation>true</supportsRotation>
     <rotationDirection>cw</rotationDirection>           <!-- Typically "cw" for Sparrow/Starling -->
-    <supportsNPOT>true</supportsNPOT>
-    <supportsPolygonPacking>true</supportsPolygonPacking>
-    <supportsPivotPoint>true</supportsPivotPoint>
+    <trimSpriteNames>true</trimSpriteNames>             <!-- trim sprite names -->
+    <autoAliasEnabled>true</autoAliasEnabled>           <!-- automatic detection of duplicate sprites enabled -->
+    <premultiplyAlpha>true</premultiplyAlpha>           <!-- Starling stores conventional textures with alpha premultiplied -->
+    <supportsNPOT>true</supportsNPOT>                   <!-- allows choice of non-power-of-2 sizes for sprite sheets -->
+    <supportsPivotPoint>true</supportsPivotPoint>       <!-- Starling supports defining per-sprite pivot point in the atlas -->
     <supportsScale9>true</supportsScale9>
     <supportsAnimations>true</supportsAnimations>
     <spriteOrigin>TopLeft</spriteOrigin>                <!-- "TopLeft" for Sparrow/Starling -->
     <textureSizeFactor>1</textureSizeFactor>
+    <supportsPolygonPacking>false</supportsPolygonPacking>
     <ensureIntegerCenterOffset>false</ensureIntegerCenterOffset>
 
     <!-- Default values for new projects and “Update to recommended values” -->
