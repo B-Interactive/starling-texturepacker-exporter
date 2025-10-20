@@ -23,7 +23,7 @@ This custom exporter adds support for defining per-sprite **pivot points**, whic
 
    <img width="571" height="544" alt="image" src="https://github.com/user-attachments/assets/c3496079-9ff0-4cf0-9e13-edd98b1ca08a" />
    
-3. Download this repository and extract it somewhere.  Then, copy the `Starling-Advanced` and paste it into the custom exporters directory you defined above.  Then start, or restart TexturePacker.   
+3. Download this repository and extract it somewhere.  Then, copy the `Starling-Advanced` directory and paste it into the custom exporters directory you defined above.  Then start, or restart TexturePacker.   
 
 4. Select the new exporter in TexturePacker, as **Sparrow / Starling Advanced**.
 
