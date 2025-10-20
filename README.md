@@ -4,9 +4,9 @@ A custom [TexturePacker](https://www.codeandweb.com/texturepacker) exporter for 
 
 ## Overview
 
-This exporter is designed as a drop-in replacement for the default TexturePacker Starling exporter.  The native TexturePacker exporter for Sparrow / Starling is full featured, but lacks support defining sprite pivot points.
+This exporter is designed as a drop-in replacement for the default TexturePacker Starling exporter.  The native TexturePacker exporter for Sparrow / Starling is full featured, but lacks support for defining sprite pivot points.
 
-This custom exporter adds support for defining per-sprite **pivot points**, which Starling already supports.
+This custom exporter adds support for defining per-sprite **pivot points** in TexturePacker, compatible with the Starling framework.
 
 ## Features
 
