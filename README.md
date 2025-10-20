@@ -19,12 +19,12 @@ This custom exporter adds support for defining per-sprite **pivot points**, whic
 
 ## Usage
 
-1. Place the exporter in your TexturePacker custom exporter directory.
-   The location of this directory is set by you in TexturePacker **Preferences** > **Settings** > **Extensions**.
-
+1. In TexturePacker, set the location of your custom exporters directory, in **Preferences** > **Settings** > **Extensions**.
    <img width="571" height="544" alt="image" src="https://github.com/user-attachments/assets/c3496079-9ff0-4cf0-9e13-edd98b1ca08a" />
+   
+2. Download this repository and extract it somewhere.  Then, copy the `Starling-Advanced` and paste it into the custom exporters directory you defined above.  Then start, or restart TexturePacker.   
 
-3. Select it in TexturePacker, as **Sparrow / Starling Advanced**.
+3. Select the new exporter in TexturePacker, as **Sparrow / Starling Advanced**.
 
    <img width="503" height="560" alt="image" src="https://github.com/user-attachments/assets/6679ced8-363a-425b-ac10-87ec34ba3324" />
 
